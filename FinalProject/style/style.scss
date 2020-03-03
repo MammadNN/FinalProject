@@ -1,0 +1,132 @@
+.main_header {
+  background-color: #1a1d1f;
+  header {
+    // header contact strat
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .contact {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid white;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+      font-family: "Raleway", sans-serif;
+      .icon {
+        color: #71b100;
+      }
+      .Email {
+        color: white;
+      }
+    }
+    span:hover {
+      color: #71b100;
+      transition: 1s;
+    }
+    .Social_Number {
+      ul {
+        display: flex;
+        li {
+          margin-top: 15px;
+          list-style-type: none;
+        }
+      }
+      a {
+        padding-left: 40px;
+      }
+      a:hover {
+        text-decoration: none;
+        color: #71b100;
+        transition: 0.7s;
+      }
+      span {
+        display: flex;
+        color: white;
+        padding-left: 20px;
+        padding-left: 30px;
+      }
+    }
+    // header contact end
+
+    .Nav {
+      color: white;
+      ul {
+        list-style-type: none;
+        display: flex;
+        padding: 29px;
+        li {
+          padding-left: 60px;
+          font-size: 24px;
+
+          a:hover {
+            color: #71b100;
+            text-decoration: none;
+            transition: 0.7s;
+          }
+        }
+      }
+    }
+  }
+}
+// Slider
+.slidern {
+  position: relative;
+  .iconn {
+    font-size: 50px;
+    color: whitesmoke;
+  }
+  h2 {
+    position: absolute;
+    color: white;
+    padding-top: 200px;
+    padding-left: 155px;
+  }
+  p {
+    position: absolute;
+    color: white;
+    padding-top: 278px;
+    padding-left: 188px;
+  }
+  .But_price {
+    // border: solid 1px;
+    h4 {
+      position: absolute;
+      color: white;
+      padding-top: 180px;
+      padding-left: 975px;
+    }
+    h5 {
+      position: absolute;
+      color: white;
+      padding-top: 215px;
+      padding-left: 997px;
+    }
+    p {
+      position: absolute;
+      color: white;
+      padding-top: 248px;
+      padding-left: 979px;
+    }
+  }
+}
+
+#mobile {
+  display: none;
+}
+
+#desktop {
+  display: block;
+}
+
+@media screen and (max-width: 450px) {
+  #mobile {
+    display: block;
+  }
+  #desktop {
+    display: none;
+  }
+}

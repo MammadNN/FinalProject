@@ -1,0 +1,172 @@
+.main_header {
+  background-color: #1a1d1f;
+}
+
+.main_header header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.main_header header .contact {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+
+.main_header header a {
+  text-decoration: none;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+.main_header header a .icon {
+  color: #71b100;
+}
+
+.main_header header a .Email {
+  color: white;
+}
+
+.main_header header span:hover {
+  color: #71b100;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.main_header header .Social_Number ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main_header header .Social_Number ul li {
+  margin-top: 15px;
+  list-style-type: none;
+}
+
+.main_header header .Social_Number a {
+  padding-left: 40px;
+}
+
+.main_header header .Social_Number a:hover {
+  text-decoration: none;
+  color: #71b100;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.main_header header .Social_Number span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  padding-left: 20px;
+  padding-left: 30px;
+}
+
+.main_header header .Nav {
+  color: white;
+}
+
+.main_header header .Nav ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 29px;
+}
+
+.main_header header .Nav ul li {
+  padding-left: 60px;
+  font-size: 24px;
+}
+
+.main_header header .Nav ul li a:hover {
+  color: #71b100;
+  text-decoration: none;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.slidern {
+  position: relative;
+}
+
+.slidern .iconn {
+  font-size: 50px;
+  color: whitesmoke;
+}
+
+.slidern h2 {
+  position: absolute;
+  color: white;
+  padding-top: 200px;
+  padding-left: 155px;
+}
+
+.slidern p {
+  position: absolute;
+  color: white;
+  padding-top: 278px;
+  padding-left: 188px;
+}
+
+.slidern .But_price h4 {
+  position: absolute;
+  color: white;
+  padding-top: 180px;
+  padding-left: 975px;
+}
+
+.slidern .But_price h5 {
+  position: absolute;
+  color: white;
+  padding-top: 215px;
+  padding-left: 997px;
+}
+
+.slidern .But_price p {
+  position: absolute;
+  color: white;
+  padding-top: 248px;
+  padding-left: 979px;
+}
+
+#mobile {
+  display: none;
+}
+
+#desktop {
+  display: block;
+}
+
+@media screen and (max-width: 450px) {
+  #mobile {
+    display: block;
+  }
+  #desktop {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
+
+.li1 {
+  position: absolute;
+  margin: -23px 0 0 137px;
+  border: none;
+  list-style-type: none;
+}
